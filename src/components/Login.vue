@@ -49,7 +49,7 @@ export default {
           console.log(this.loginForm);
           
         } else {
-          alert("用户名或者密码不正确")
+          confirm("用户名或密码错误，请重新输入")
           return false;
         }
       });
