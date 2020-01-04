@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Myproject from '@/components/Myproject'
 import Hivue from '@/components/Hivue'
 import Params from '@/components/Params'
-import Form from '@/components/Form'
+import Regsiter from '@/components/Regsiter'
 import Product from '@/components/Product'
 import pro_one from '@/components/pro_one'
 import pro_two from '@/components/Pro_two'
@@ -37,9 +37,9 @@ export default new Router({
       component:Params
     },
     {
-      path:'/form',
-      name:'Form',
-      component:Form
+      path:'/Regsiter',
+      name:'Regsiter',
+      component:Regsiter
     },
     {
       path:'/Product',
