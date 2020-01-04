@@ -63,7 +63,7 @@ export default {
 
 }
 .content .bottom {
-  /* text-align: center; */
+  text-align: center;
   /* display: flex; */
   background: gray;
   width: 100%;
